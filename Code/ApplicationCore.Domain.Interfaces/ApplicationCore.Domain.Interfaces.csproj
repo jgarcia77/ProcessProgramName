@@ -44,9 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ApplicationCore.Domain.Models\ApplicationCore.Domain.Models.csproj">
       <Project>{c3b69f34-8099-4189-8511-d816229a6665}</Project>
       <Name>ApplicationCore.Domain.Models</Name>

@@ -1,14 +1,12 @@
-﻿using ApplicationCore.Domain.Interfaces;
-using ApplicationCore.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ApplicationCore.Domain.Models;
-
-namespace ApplicationCore.Services
+﻿namespace ApplicationCore.Services
 {
+    using ApplicationCore.Domain.Interfaces;
+    using ApplicationCore.Services.Interfaces;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using ApplicationCore.Domain.Models;
+
     public class Service : IService
     {
         private readonly IRepository respository;
